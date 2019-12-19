@@ -4,7 +4,7 @@ begin
   begin
     for var j := 0 to a.GetLength(1) - 1 do
       if a[i, j] then write('1')
-      else write(0);
+      else write('0');
     writeln();
   end;
 end;
